@@ -6,6 +6,7 @@ PRJDIR=`pwd | sed -r "s/${PRJ}.*?$/${PRJ}/"`
 
 BINPATH="$PRJDIR/bin"
 DBPATH="$PRJDIR/data"
+CERTPATH="$PRJDIR/certs"
 
 if [[ "$1" == "--debug" ]]; then
     echo "Paths:"

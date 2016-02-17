@@ -37,6 +37,10 @@ Start on server
 
 ## References ##
 
+### Elm interop
+
+* [socket.io](https://github.com/mgold/elm-socketio)
+
 ### Tutorials
 
 * Node.js + Express + Jade + MongoDB, [CloseBrace](http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/)
