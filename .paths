@@ -1,0 +1,15 @@
+#!/bin/bash
+
+PRJ='cmw'
+
+PRJDIR=`pwd | sed -r "s/${PRJ}.*?$/${PRJ}/"`
+
+BINPATH="$PRJDIR/bin"
+DBPATH="$PRJDIR/data"
+
+if [[ "$1" == "--debug" ]]; then
+    echo "Paths:"
+    echo "BINPATH: $BINPATH"
+    echo "DBPATH: $DBPATH"
+fi
+

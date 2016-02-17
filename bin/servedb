@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+. .paths
+
+# Start mongodb server
+mongod --dbpath=${DBPATH} --port 27017
+

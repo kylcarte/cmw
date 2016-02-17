@@ -1,16 +1,50 @@
+
 # cmw
 
-## Dependencies
+## Dependencies ##
 
-### Node.js
+### MongoDB
 
-* mysql
-* [felixge/node-mysql](https://github.com/felixge/node-mysql)
+#### dnf install
 
-### elm
+* `mongodb-server`
+
+#### npm install
+
+* `mongodb`
+* `node-mongodb-native`
+
+### MySQL ###
+
+#### dnf install
+
+* `mysql`
+
+#### npm install
+
+* `mysql`
+* `node-mysql`
+
+### Elm
 
 
-## References
+## Setup ##
 
-* [Node.js + Express + Jade + MongoDB](http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/)
+DB Init, from [Quick Tour]
+Start on server
+
+    $ mongod --dbpath=data --port 27017
+
+## References ##
+
+### Tutorials
+
+* Node.js + Express + Jade + MongoDB, [CloseBrace](http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/)
+* MongoDB [Quick Tour](http://mongodb.github.io/node-mongodb-native/2.1/getting-started/quick-tour/)
+
+### APIs
+
+* [node-mongodb-native](https://github.com/mongodb/node-mongodb-native)
+* [node-mongodb](https://github.com/orlandov/node-mongodb)
+* ODM [mongoose](http://mongoosejs.com/)
 
