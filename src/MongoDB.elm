@@ -1,6 +1,9 @@
 
-module Task.MongoDB
-  (
+module MongoDB
+  ( connect
+  , close
+  , DB
+  , Options
   ) where
 
 import Native.MongoDB
